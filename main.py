@@ -8,7 +8,7 @@ from json_manager import check_if_id_in_json, read_json, append_json
 
 # get linkedin access_token
 
-linkedInAccessToken = 'AQUfasD8EMTLG5TKsr6156wMSWlQtzciR9zZ0rk3IcAGtwCcuYMlhRwH6bm17kjhZCaxzBxzJJKd0iC4qPd30YvaRedBGxfMg-evYedZA2soL0QMBKcT2_fJAJz8LbU9tELvXjHDGxM_3KTZJyYMVfEmneVqGXvRsCgkglO5iQ31bRu2kZj0pF01xjJmH47iLSrQY2jxqaiQ4FO1fi5cfCJWvAysnTt0uQcdnVXXh_iJNWEhypn3pcAv48JmG-J72E-HdHjdTGYXYsTQAqKC_m68b9rLqnU2eUgS3sZWNal_udZr94XS3Ky3UzDyDqt46omuyz0XQ4Uvi53agop5xR7JFmKQcQ'
+linkedInAccessToken = ''
 linked = LinkedIn(linkedInAccessToken)
 saveFileName = 'user_test.json'
 hackerNews = HackerNews(saveFileName)
